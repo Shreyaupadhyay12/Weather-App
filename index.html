@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <!-- San Francisco screen -->
+    <div class="card">
+      <h2>San Francisco</h2>
+      <p>May 28, 2023</p>
+      <button class="chip">Forecast</button>
+      <div class="weather-icon sun-rain"></div>
+      <div class="info-row">
+        <p>Temp<br><strong>32°</strong></p>
+        <p>Wind<br><strong>10km/h</strong></p>
+        <p>Humidity<br><strong>75%</strong></p>
+      </div>
+      <div class="forecast-mini">
+        <div>14:00<br>32°</div>
+        <div>15:00<br>30°</div>
+      </div>
+    </div>
+
+    <!-- Forecast report -->
+    <div class="card">
+      <h2>Forecast report</h2>
+      <p>May 28, 2023</p>
+      <div class="forecast-today">
+        <div>14:00<br>32°</div>
+        <div>15:00<br>30°</div>
+      </div>
+      <h3>Next forecast</h3>
+      <ul class="forecast-list">
+        <li>Friday - 32°</li>
+        <li>Saturday - 30°</li>
+        <li>Sunday - 28°</li>
+        <li>Monday - 29°</li>
+      </ul>
+    </div>
+
+    <!-- Pick location -->
+    <div class="card">
+      <h2>Pick Location</h2>
+      <input type="text" placeholder="Search" />
+      <div class="locations">
+        <div class="location-card">California<br>32°</div>
+        <div class="location-card">Paris<br>28°</div>
+        <div class="location-card">London<br>24°</div>
+        <div class="location-card">Milan<br>33°</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
